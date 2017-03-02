@@ -1,0 +1,556 @@
+
+* {
+	margin:0;
+	padding:0;
+	
+}
+body {
+	color:#666;
+	font:12px/20px Verdana, Arial, "ËÎÌו", SimSun, serif, sans-serif;
+	clear:both;
+	background:#fff
+}
+ul, li {
+	list-style:none
+}
+img {
+	border:0;
+	vertical-align:top
+}
+a {
+	color:#666;
+	text-decoration:none
+}
+a {
+blr:expression(this.onFocus=this.blur())
+}
+a {
+	outline:none;
+}
+a:hover {
+	color:#666;
+	text-decoration:none
+}
+#Wrapper {
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+	border-top:5px solid #a00;
+}
+.clear {
+	clear:both;
+}
+.Top {
+	height:100px;
+	overflow:hidden;
+}
+.Logo {
+	float:left;
+	padding:20px 0 0 0;
+}
+.Top_Link {
+	float:right;
+	line-height:30px;
+	padding:0 0 20px 0;
+}
+.Top_Link a {
+	background:url(../images/Li_Ico.gif) 0 50% no-repeat;
+	padding:0 0 0 8px;
+	margin:0 10px 0 0;
+}
+.Top_Link a:hover {
+	color:#000;
+}
+.Nav {
+	float:right;
+	width:588px;
+	height:36px;
+	overflow:hidden;
+	background:url(../images/Nav.gif) no-repeat;
+	padding:0 0 0 15px;
+}
+.Nav li {
+	display:inline;
+	color:#ccc;
+	line-height:36px;
+}
+.Nav li a {
+	color:#fff;
+	font-weight:bolder;
+	padding:0 4px 0 9px;
+}
+.Nav li a:hover {
+	color:#ff0;
+}
+.Banner {
+	margin:0 0 10px 0;
+	width:940px;
+	height:196px;
+	overflow:hidden;
+}
+#Left {
+	width:221px;
+	float:left;
+	overflow:hidden;
+}
+#Center {
+	width:499px;
+	float:left;
+	overflow:hidden;
+}
+#Right {
+	width:220px;
+	float:right;
+	overflow:hidden;
+}
+.Product_List {
+	background:url(../images/Left_Box_Bottom.gif) 0 bottom no-repeat;
+	padding:0 0 9px 0;
+}
+.Product_List .Top {
+	background:url(../images/Product_List.gif) no-repeat;
+	height:50px;
+}
+.Product_List .Top1 {
+	background:url(../images/Product_List1.gif) no-repeat;
+	height:50px;
+}
+.Product_List .Top a {
+	text-indent:-999em;
+	display:block;
+	height:50px;
+}
+.Product_List ul {
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	padding:8px 0 0 7px;
+}
+.Product_List li {
+	background:url(../images/List_Bg.gif) no-repeat;
+	height:26px;
+	padding:0 0 8px 20px;
+	line-height:26px;
+}
+.Product_List li a {
+	color:#a00;
+	font-weight:bolder;
+}
+.Product_List li a:hover {
+	color:#f60;
+}
+.Successful_Cases {
+	background:url(../images/Left_Box_Bottom.gif) 0 bottom no-repeat;
+	padding:0 0 9px 0;
+	margin:10px 0 0 0;
+}
+.Successful_Cases .Top {
+	background:url(../images/Successful_Cases.gif) no-repeat;
+	height:50px;
+}
+.Successful_Cases .Top a {
+	text-indent:-999em;
+	display:block;
+	height:50px;
+}
+.Successful_Cases ul {
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	padding:8px 0 0 7px;
+}
+.Successful_Cases li p {
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-weight:bolder;
+	cursor:pointer;
+}
+#demo {
+	height:200px;
+	overflow:hidden;
+}
+.Product_Center {
+	width:479px;
+	padding:0 10px;
+	background:url(../images/Center_Box_Bg.gif) 2px bottom no-repeat;
+}
+.Product_Center .Top {
+	background:url(../images/Product_Center.gif) no-repeat;
+	height:49px;
+}
+.Product_Center .Top a {
+	text-indent:-999em;
+	display:block;
+	height:49px;
+}
+.Product_Center ul {
+	padding:10px 0 0 15px;
+}
+.Product_Center li {
+	float:left;
+	margin:0 15px 0 0;
+}
+.Product_Center li p {
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	width:100px;
+}
+.Product_Platform {
+	width:479px;
+	padding:0 10px;
+	background:url(../images/Center_Box_Bg.gif) 2px bottom no-repeat;
+	margin:20px 0 0 0;
+}
+.Product_Platform .Top {
+	background:url(../images/Product_Platform.gif) no-repeat;
+	height:49px;
+}
+.Product_Platform .Top a {
+	text-indent:-999em;
+	display:block;
+	height:49px;
+}
+.Product_Platform ul {
+	padding:10px 0 0 15px;
+	float:left;
+}
+.Product_Platform li {
+	float:left;
+	margin:0 15px 0 0;
+	width:208px;
+	overflow:hidden;
+	padding:0 0 0 8px;
+	height:25px;
+	line-height:25px;
+	border-bottom:1px dashed #ccc;
+	background:url(../images/Li_Ico.gif) 0 50% no-repeat;
+}
+.Company_News {
+	background:url(../images/Right_Box_Bottom.gif) 0 bottom no-repeat;
+	padding:0 0 9px 0;
+}
+.Company_News .Top {
+	background:url(../images/Company_News.gif) no-repeat;
+	height:45px;
+}
+.Company_News .Top a {
+	text-indent:-999em;
+	display:block;
+	height:45px;
+}
+.Company_News ul {
+	border-left:4px solid #E9E9E9;
+	border-right:4px solid #E9E9E9;
+	padding:5px 0 0 7px;
+	margin:0 2px 0 0;
+}
+.Company_News li {
+	padding:0 0 0 8px;
+	margin:0 8px 0 0;
+	overflow:hidden;
+	background:url(../images/li_Ico.gif) 0 50% no-repeat;
+	line-height:25px;
+	height:25px;
+	border-top:1px dashed #ccc;
+}
+.Company_News li a:hover {
+	color:#f60;
+}
+.Company_News li.Title {
+	height:30px;
+	line-height:32px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bolder;
+	overflow:hidden;
+	width:195px;
+	padding:0;
+	border:0;
+	background:none;
+}
+.Company_News li.Text {
+	text-indent:2em;
+	height:60px;
+	line-height:20px;
+	color:#999;
+	background:none;
+	padding:0;
+	margin:0 0 10px 0;
+	border:0;
+}
+.Company_News li.Title a {
+	color:#a00;
+}
+.Technical_Support {
+	background:url(../images/Right_Box_Bottom.gif) 0 bottom no-repeat;
+	padding:0 0 9px 0;
+	margin:10px 0 0 0;
+}
+.Technical_Support .Top {
+	background:url(../images/Technical_Support.gif) no-repeat;
+	height:45px;
+}
+.Technical_Support .Top a {
+	text-indent:-999em;
+	display:block;
+	height:45px;
+}
+.Technical_Support .Telephone {
+	border-left:4px solid #E9E9E9;
+	border-right:4px solid #E9E9E9;
+	padding:5px 7px 0 7px;
+	margin:0 2px 0 0;
+	color:#000;
+	line-height:25px;
+}
+.Technical_Support .Telephone b {
+	color:#a00;
+}
+#Footer {
+	text-align:center;
+	margin:30px 0 0 0;
+	background:url(../images/Footer_Top.gif) 3px 0 no-repeat;
+	padding:7px 0 0 0;
+}
+#Footer .CopyRight {
+	background:#F5F5F5;
+	border-left:1px solid #E0E0E0;
+	border-right:1px solid #E0E0E0;
+	margin:0 3px 0 3px;
+	padding:10px 0;
+	line-height:20px;
+}
+#Footer .CopyRight a:hover {
+	color:#000;
+}
+#Body_Right {
+	float:left;
+	width:719px;
+	overflow:hidden;
+}
+#Body_Right .Path {
+	margin:5px 0 0 10px;
+	border:1px solid #ddd;
+	background:#f6f6f6;
+	height:30px;
+	line-height:30px;
+	padding:0 0 0 10px;
+}
+#Body_Right .Path a {
+	margin:0 5px;
+}
+#Body_Right .Channel {
+	height:30px;
+	line-height:30px;
+	margin:15px 0 0 10px;
+	padding:0 0 0 5px;
+	font-size:14px;
+	font-weight:bolder;
+	color:#a00;
+	font-family:"Microsoft Yahei";
+	border-bottom:3px solid #eee;
+}
+#Body_Right .Channel a {
+	margin:0 5px;
+	padding:0 5px 0 12px;
+	background:url(../images/2nav_ico.gif) 3px 50% no-repeat #a00;
+	color:#fff;
+}
+#Body_Right .Channel a:hover {
+	color:#fc0;
+}
+#Body_Right ul.List_Text {
+	margin:10px;
+	padding:0 20px 20px 20px;
+}
+#Body_Right ul.List_Text li {
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dashed #ccc;
+	padding:0 0 0 7px;
+	background:url(../images/Li_Ico.gif) 0 12px no-repeat;
+	overflow:hidden;
+}
+#Body_Right ul.List_Text li a {
+	float:left;
+}
+#Body_Right ul.List_Text li a:hover {
+	color:#f60;
+}
+#Body_Right ul.List_Text li i {
+	float:right;
+	font-style:normal;
+	color:#999;
+}
+#Body_Right ul.List_Hr {
+	margin:10px;
+	padding:0 20px 20px 20px;
+}
+#Body_Right ul.List_Hr li {
+	line-height:25px;
+	padding:0 0 0 7px;
+	background:url(../images/Li_Ico.gif) 0 10px no-repeat;
+	font-weight:bolder;
+	color:#a00;
+	margin:5px 0 0 0;
+}
+#Body_Right ul.List_Hr li i {
+	font-style:normal;
+	font-weight:normal;
+	color:#666;
+	padding:0 0 0 10px;
+}
+#Body_Right ul.List_Hr li a {
+	font-size:14px;
+	color:#000;
+}
+#Body_Right ul.List_Hr li a:hover {
+	color:#a00;
+}
+#Body_Right ul.List_Hr li p {
+	border-bottom:1px dashed #ccc;
+	background:url(../images/2list_ico.gif) 8px 8px no-repeat #f6f6f6;
+	padding:0 0 0 10px;
+}
+#Body_Right ul.Job_Info {
+	width:500px;
+	margin:0 0 20px 80px;
+	float:left;
+	display:inline;
+	border:1px solid #ddd;
+	border-right:0;
+	border-bottom:0;
+}
+#Body_Right ul.Job_Info li {
+	float:left;
+	width:229px;
+	padding:10px;
+	border:1px solid #ddd;
+	border-left:0;
+	border-top:0;
+}
+#Body_Right ul.Job_Info li b {
+	color:#a00;
+}
+#Body_Right ul.Photo_Text {
+	margin:10px 10px 10px 0;
+	padding:0 0 20px 35px;
+	float:left;
+}
+#Body_Right ul.Photo_Text li {
+	float:left;
+	margin:10px 27px 10px 0;
+	text-align:center;
+	font-weight:bolder;
+}
+#Body_Right ul.Photo_Text li img {
+	padding:2px;
+	border:1px solid #ccc;
+}
+.Pagination {
+	border-top:3px solid #eee;
+	padding:10px 8px 0 0;
+	line-height:25px;
+	font-size:12px;
+	color: #999;
+	text-align:center;
+}
+.Pagination span {
+	width:auto;
+	float: none;
+	margin:0 2px;
+	padding:0;
+	color:#999;
+}
+.Pagination span.page {
+	padding:0 5px 2px 3px;
+	background: #f6f6f6;
+	border:1px solid #ddd;
+}
+.Pagination a {
+	float:none;
+	padding:0 5px 2px 3px;
+	background: #f6f6f6;
+	border:1px solid #ddd;
+	color:#000;
+}
+.Pagination a:hover {
+	background: #fc0;
+	border:1px solid #fc0;
+	color:#a00;
+}
+.Pagination .curr {
+	padding:0 5px 2px 3px;
+	background: #a00;
+	color:#FFF;
+	font-weight:bolder;
+	border:1px solid #a00;
+}
+#Body_Right .Title {
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	margin:15px 0 0 10px;
+	padding:0 0 0 5px;
+	font-size:16px;
+	font-weight:bolder;
+	color:#a00;
+	font-family:"Microsoft Yahei";
+	border-bottom:3px solid #eee;
+}
+#Body_Right .Article {
+	padding:20px 20px 20px 30px;
+}
+#Body_Right .Left_Photo {
+	padding:0 0 20px 0;
+}
+#Body_Right .Left_Photo img {
+	float:left;
+	padding:2px;
+	border:1px solid #ccc;
+	margin:0 20px 0 0;
+}
+#Body_Right .Photo_Right {
+	float:left;
+	width:340px;
+}
+#Body_Right .Photo_Right p {
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	border-bottom:1px dashed #ccc;
+}
+#Body_Right .Photo_Right b {
+	color:#a00;
+	padding:0 5px 0 0;
+	font-size:16px;
+}
+#Body_Right .Article .Text {
+	padding:20px;
+	line-height:25px;
+	background:#f6f6f6;
+	border:1px solid #eee;
+}
+#Body_Right .Article .Text p {
+	margin:0 0 10px 0;
+}
+#Body_Right .Article .Text p.Tit {
+	height:30px;
+	line-height:20px;
+	border-bottom:3px solid #ddd;
+	font-size:16px;
+	font-weight:bolder;
+	color:#a00;
+}
+#Body_Right .Info {
+	text-align:center;
+	color:#999;
+	height:30px;
+	line-height:30px;
+	margin:0 0 0 10px;
+	background:#f6f6f6;
+}
+#Body_Right .Info i {
+	font-style:normal;
+	margin:0 10px;
+}
